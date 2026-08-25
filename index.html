@@ -2,86 +2,413 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anurag Josyula | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anurag Josyula | Software Engineer & Data Analyst</title>
+  <meta name="description" content="Anurag Josyula — Software Engineer building AI-powered systems, scalable backends, and data-driven solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="assets/profile.jpg" alt="Anurag's Photo" class="profile-img" />
+  <div class="page-bg" aria-hidden="true"></div>
 
-    <div class="header-content">
-      <h1>Anurag Josyula</h1>
-      <p>Master’s Student in Data Analytics | Software Engineer Intern</p>
-      <div class="links">
-        <a href="mailto:anuragjosyula@gmail.com">Email</a>
-        <a href="https://linkedin.com/in/anurag1001" target="_blank">LinkedIn</a>
-        <a href="assets/Anurag_resume.pdf" target="_blank">Resume</a>
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">AJ</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="hero-eyebrow">San Jose, California</p>
+        <h1>Anurag Josyula</h1>
+        <p class="hero-tagline">
+          Software Engineer &amp; M.S. Data Analytics student building
+          <span class="gradient-text">AI-powered systems</span> at scale.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="assets/Anurag_Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+        </div>
+        <div class="hero-links">
+          <a href="mailto:josyulaanurag@gmail.com">josyulaanurag@gmail.com</a>
+          <span class="divider">·</span>
+          <a href="https://linkedin.com/in/anurag1001" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="divider">·</span>
+          <a href="https://github.com/aj1575" target="_blank" rel="noopener">GitHub</a>
+          <span class="divider">·</span>
+          <a href="tel:+16699003100">+1 (669) 900-3100</a>
+        </div>
       </div>
-    </div>
-  </header>
+      <div class="hero-visual reveal">
+        <div class="hero-card">
+          <img src="assets/profile.jpg" alt="Anurag Josyula" class="profile-img" />
+          <div class="hero-card-glow"></div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">3+</span>
+            <span class="stat-label">Years Building</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">AI/ML</span>
+            <span class="stat-label">Specialization</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">Full-Stack</span>
+            <span class="stat-label">Engineering</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a data-driven technologist passionate about solving problems using analytics, systems thinking, and machine learning.
-    </p>
-  </section>
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01 — About</span>
+          <h2>Engineering intelligent systems<br />with precision &amp; purpose</h2>
+        </div>
+        <div class="about-grid reveal">
+          <p class="about-lead">
+            I'm a software engineer and graduate student at San Jose State University, focused on
+            designing scalable AI workflows, distributed backend systems, and data-driven products
+            that solve real enterprise problems.
+          </p>
+          <p class="about-detail">
+            From LangGraph-powered automation at Cloudely to NLP research at IIIT Hyderabad, I bring
+            a rigorous approach to building reliable software — combining machine learning, REST APIs,
+            and cloud-native architecture to ship solutions that perform under pressure.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>San Jose State University</strong> - M.S. in Data Analytics (2027)</li>
-      <li><strong>KMIT, Hyderabad</strong> - B.Tech in Computer Science (2024)</li>
-    </ul>
-  </section>
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02 — Experience</span>
+          <h2>Where I've built &amp; shipped</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <span class="timeline-date">Jun 2026 — Present</span>
+              <span class="timeline-location">Sunnyvale, CA</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Software Developer Intern</h3>
+              <p class="timeline-company">Cloudely</p>
+              <ul>
+                <li>Designed and deployed scalable Python software using REST APIs, LangGraph, browser automation, and LLM tool calling for enterprise workflows.</li>
+                <li>Built AI productivity solutions with dynamic planning, external tool orchestration, and reliable enterprise integrations.</li>
+                <li>Created automated testing pipelines measuring reasoning accuracy, hallucination rate, and latency to improve model reliability.</li>
+                <li>Optimized AI workflows through retrieval optimization, context compression, persistent memory, and prompt engineering.</li>
+              </ul>
+            </div>
+          </article>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Breast Cancer Classification</h3>
-      <p>Machine learning model to classify tumors using the Wisconsin Dataset.</p>
-    </div>
-    <div class="card">
-      <h3>Grad School Admission Predictor</h3>
-      <p>Forecasting admission probabilities using ML models and applicant data.</p>
-    </div>
-    <div class="card">
-      <h3>QR Scanner Website</h3>
-      <p>A simple QR scanner using JSON storage for dynamic use cases.</p>
-    </div>
-  </section>
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2025 — Nov 2025</span>
+              <span class="timeline-location">Hyderabad, India</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Research Apprentice — AI Web Systems</h3>
+              <p class="timeline-company">IIIT Hyderabad</p>
+              <ul>
+                <li>Developed Python AI workflows using LangChain and Transformers for NLP, document reasoning, summarization, and entity linking — improving efficiency by 30%.</li>
+                <li>Built content generation and multi-step reasoning pipelines applying information retrieval and ML techniques.</li>
+                <li>Created technical documentation and system demonstrations for cross-functional developer audiences.</li>
+              </ul>
+            </div>
+          </article>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <p><strong>Languages:</strong> Python, Java, C/C++, JavaScript, HTML/CSS, SQL, Go</p>
-    <p><strong>Frameworks:</strong> React, Node.js, Django</p>
-    <p><strong>Tools:</strong> Git, VS Code, Azure, PowerBI</p>
-  </section>
+          <article class="timeline-item reveal">
+            <div class="timeline-meta">
+              <span class="timeline-date">Mar 2023 — May 2023</span>
+              <span class="timeline-location">Hyderabad, India</span>
+            </div>
+            <div class="timeline-body">
+              <h3>Software Developer</h3>
+              <p class="timeline-company">Nat IT Services</p>
+              <ul>
+                <li>Built scalable data-processing software with Python and SQL, improving operational efficiency by 20% across analytics workflows.</li>
+                <li>Automated reporting with Python and Power BI, reducing manual effort by 40% and accelerating decision-making.</li>
+                <li>Applied Prophet for time-series forecasting, improving prediction accuracy by 18%.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <section id="experience">
-    <h2>Experience & Activities</h2>
-    <ul>
-      <li><strong>Data Analyst Intern</strong> at Nat IT Services – SQL, Azure, PowerBI</li>
-      <li><strong>Street Cause NGO</strong> – HR & Logistics Head</li>
-      <li><strong>Rotaract Club</strong> – Director of Community Services</li>
-    </ul>
-  </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03 — Projects</span>
+          <h2>Featured work</h2>
+          <p class="section-subtitle">Academic builds and open-source projects from <a href="https://github.com/aj1575" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
 
-  <footer>
-    <p>© 2025 Anurag Josyula | Crafted with ♥ using HTML, CSS & JS</p>
-    <p class="quote">"Turning data into stories, one model at a time."</p>
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-header">
+              <h3>AI Enhanced Property Rental Platform</h3>
+              <span class="project-date">June 2025</span>
+            </div>
+            <p class="project-desc">
+              Full-stack web application applying NLP to property search and recommendations,
+              with distributed backend services and retrieval-augmented generation for intelligent matching.
+            </p>
+            <div class="project-metrics">
+              <div class="metric">
+                <span class="metric-value">35%</span>
+                <span class="metric-label">Query accuracy gain</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">25%</span>
+                <span class="metric-label">Fewer irrelevant results</span>
+              </div>
+            </div>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>PostgreSQL</span>
+              <span>LangChain</span>
+              <span>Docker</span>
+              <span>AWS</span>
+            </div>
+          </article>
 
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>Agentic AI Career Counseling</h3>
+              <span class="project-date">2025</span>
+            </div>
+            <p class="project-desc">
+              AI career counseling agent powered by Streamlit, LangChain, and Ollama for personalized
+              guidance through multi-step conversational reasoning.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>LangChain</span>
+              <span>Ollama</span>
+            </div>
+            <a href="https://github.com/aj1575/Agentic-AI-Career-Counseling" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>XAI Explorer</h3>
+              <span class="project-date">2025</span>
+            </div>
+            <p class="project-desc">
+              Explainable AI toolkit for interpreting and visualizing machine learning model decisions
+              with transparency-focused analysis workflows.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>XAI</span>
+            </div>
+            <a href="https://github.com/aj1575/XAIExplorer" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>Fake Review Detection</h3>
+              <span class="project-date">2026</span>
+            </div>
+            <p class="project-desc">
+              ML pipeline to identify organized fake review activities on e-commerce platforms
+              using pattern analysis and behavioral signals.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>NLP</span>
+            </div>
+            <a href="https://github.com/aj1575/identifying-organized-fake-review-activities-on-e-commerce-platforms" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>GenAI Project</h3>
+              <span class="project-date">2026</span>
+            </div>
+            <p class="project-desc">
+              Generative AI experiments exploring LLM workflows, prompt engineering,
+              and practical applications of modern AI tooling.
+            </p>
+            <div class="project-tags">
+              <span>Jupyter</span>
+              <span>GenAI</span>
+              <span>LLMs</span>
+            </div>
+            <a href="https://github.com/aj1575/GenAI_Project" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>Deep Learning</h3>
+              <span class="project-date">2026</span>
+            </div>
+            <p class="project-desc">
+              Neural network experiments and deep learning model implementations
+              covering classification, training pipelines, and evaluation.
+            </p>
+            <div class="project-tags">
+              <span>Jupyter</span>
+              <span>PyTorch</span>
+              <span>Deep Learning</span>
+            </div>
+            <a href="https://github.com/aj1575/deep-Learning" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>CheckMyGrade App</h3>
+              <span class="project-date">2025</span>
+            </div>
+            <p class="project-desc">
+              Python application for academic grade management, tracking, and performance
+              analysis across courses and assignments.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+            </div>
+            <a href="https://github.com/aj1575/CheckMyGradeAPP" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>Streamlit Feedback System</h3>
+              <span class="project-date">2025</span>
+            </div>
+            <p class="project-desc">
+              Interactive feedback collection and analysis platform built with Streamlit
+              for gathering and reviewing user responses at scale.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Streamlit</span>
+            </div>
+            <a href="https://github.com/aj1575/streamlit-feedback-system" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <h3>Airbnb Prototype</h3>
+              <span class="project-date">2025</span>
+            </div>
+            <p class="project-desc">
+              Full-stack Airbnb clone prototype featuring property listings, search,
+              and booking interface flows built with JavaScript.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Web Development</span>
+            </div>
+            <a href="https://github.com/aj1575/AirBNB-prototype" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04 — Skills</span>
+          <h2>Technical toolkit</h2>
+        </div>
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="skill-tags">
+              <span>Python</span><span>Java</span><span>C++</span><span>Go</span>
+              <span>Rust</span><span>TypeScript</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>AI / NLP</h4>
+            <div class="skill-tags">
+              <span>LangChain</span><span>LangGraph</span><span>Transformers</span>
+              <span>RAG</span><span>GPT APIs</span><span>Hugging Face</span>
+              <span>Prompt Engineering</span><span>Multi-Agent Systems</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Frameworks &amp; Tools</h4>
+            <div class="skill-tags">
+              <span>FastAPI</span><span>React</span><span>Docker</span><span>Kubernetes</span>
+              <span>PostgreSQL</span><span>Redis</span><span>Git</span><span>CI/CD</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Cloud &amp; Systems</h4>
+            <div class="skill-tags">
+              <span>AWS (EC2, S3)</span><span>Unix/Linux</span><span>Microservices</span>
+              <span>Distributed Systems</span><span>REST APIs</span><span>System Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">05 — Education</span>
+          <h2>Academic foundation</h2>
+        </div>
+        <div class="edu-grid reveal">
+          <div class="edu-card">
+            <span class="edu-date">Jan 2025 — Dec 2026</span>
+            <h3>Master of Science in Data Analytics</h3>
+            <p>San Jose State University · San Jose, CA</p>
+          </div>
+          <div class="edu-card">
+            <span class="edu-date">Dec 2020 — May 2024</span>
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>Jawaharlal Nehru Technological University · Hyderabad, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <span class="section-tag">06 — Contact</span>
+          <h2>Let's connect</h2>
+          <p>Open to software engineering roles, AI/ML internships, and collaborative research opportunities.</p>
+          <div class="contact-actions">
+            <a href="mailto:josyulaanurag@gmail.com" class="btn btn-primary">Send Email</a>
+            <a href="https://linkedin.com/in/anurag1001" target="_blank" rel="noopener" class="btn btn-secondary">Connect on LinkedIn</a>
+            <a href="https://github.com/aj1575" target="_blank" rel="noopener" class="btn btn-secondary">View GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Anurag Josyula</p>
   </footer>
 
   <script src="script.js"></script>
-  <nav>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-  <a href="#experience">Experience</a>
-</nav>
-
 </body>
 </html>
