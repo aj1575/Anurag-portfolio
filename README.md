@@ -1,12 +1,12 @@
 # Anurag Josyula — Portfolio
 
-Personal portfolio website showcasing software engineering experience, AI/ML projects, and technical skills.
+Personal portfolio website showcasing software engineering experience, applied AI projects, and technical skills.
 
 **Live site:** [aj1575.github.io/Anurag-portfolio](https://aj1575.github.io/Anurag-portfolio/)
 
 ## About
 
-One-page portfolio built from my resume and [GitHub projects](https://github.com/aj1575). Covers experience at Cloudely, IIIT Hyderabad, and Nat IT Services, along with academic and open-source work in AI, full-stack development, and data analytics.
+One-page portfolio built from my resume and [GitHub projects](https://github.com/aj1575). Covers software engineering at Cloudely and Nat IT Services, an AI engineering internship at IIIT Hyderabad, and academic work including Travel Assist AI (3rd prize, Fetch.ai track, Cal Hacks 13.0).
 
 ## Features
 
